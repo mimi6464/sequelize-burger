@@ -11,13 +11,13 @@ var source = {
     jawsDB: {
         port: 3306,
         host: 'z37udk8g6jiaqcbx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-        user: 'y5sbfio47k267c07',
-        password: 'dz9l9adbl0t62m9p',
-        database: 'i9u6y7tc7qqcswbe'
+        user: 'qh9v0yofk6ngv26s',
+        password: 'tszhu1jq420wr8r6',
+        database: 'mygopuvcfed6eess'
     }
 }
 
-var selectedSource = source.localhost;
+var selectedSource = source.jawsDB;
 
 
 var sequelize = new Sequelize(selectedSource.database, selectedSource.user, selectedSource.password, {
